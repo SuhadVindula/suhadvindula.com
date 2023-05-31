@@ -1,13 +1,14 @@
 *{
     box-sizing: border-box;
 }
+
 header{
-    background-color: yellow;
+    background-color: #16012d;
     line-height: 40px;
     position: sticky;
 }
 #menu-icons{
-    background-color: burlywood;
+    /*background-color: burlywood;*/
     width: fit-content;
     position: relative;
     display: flex;
@@ -18,35 +19,59 @@ header{
 
 }
 header a{
-    background: aqua;
+    background: transparent;
     padding: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: wheat;
 }
+header a:hover{
+    color: lightblue;
+    background-color: rgba(30, 3, 59, 0.73);
+
+}
+
 nav{
     position: fixed;
     top:0 ;
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: #16012d;
     width: 100px;
     height: 100vh;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    opacity: 0.5;
+}
+nav svg{
+    color: wheat;
+}
+nav svg:hover{
+    color: #5db4f3;
+}
+main{
+    scroll-snap-type:  mandatory;
 }
 
 main>div{
+
     height: 100vh;
     background-position: center;
     background-size: cover;
+    scroll-snap-align:center;
 
 }
 #start{
     /*background-color: aqua;*/
+
+    top: 0;
     background-image: url("/img/sample00.png");
+
 }
 #about-me{
     background-color: chartreuse;
-    background-image: url("/img/sample\ 2.png");
+    background-image: url("/img/sample 2.png");
 
 
 
