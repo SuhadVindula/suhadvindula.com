@@ -67,16 +67,34 @@ main>div{
     /*background-color: aqua;*/
 
     top: 0;
-    background-image: url("/img/sample00.png");
+    background-color: black;
+    /* background-image: url("/img/sample00.png"); */
 
 }
 #about-me{
     background-color: chartreuse;
     background-image: url("/img/sample 2.png");
 
-
-
 }
+
+#start>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  .anim, .anim svg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .anim path {
+    stroke-width: 2;
+  }
+
 #portfolio{
     background-color: coral;
     background-image: url("/img/sample3.png");
