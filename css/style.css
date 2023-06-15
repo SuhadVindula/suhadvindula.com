@@ -71,21 +71,29 @@ main>div{
     /* background-image: url("/img/sample00.png"); */
 
 }
-#start{
-    left:50%;
-}
-#my-pic{
-    width: 500px;
 
-    
+#start>div{
+    position: relative;
+    background-color: #5db4f3;
+    width: 500px;
+    border-radius: 50%;
+    left: 50%;
+    top: 25%;
+
+}
+
+
+#my-pic{
+     b
+    width: 500px;
 
 }
 
 
 
 #about-me{
-    background-color: chartreuse;
-    background-image: url("/img/sample 2.png");
+    /* background-color: chartreuse;
+    background-image: url("/img/sample 2.png"); */
 
 }
 
